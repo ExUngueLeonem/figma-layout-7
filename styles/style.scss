@@ -138,31 +138,54 @@ a:hover {
 }
 
 .main-banner {
-    height: 604px;
+    height: 602px;
     background: url(../image/Rectangle_2.png) no-repeat center;
     box-sizing: cover;
     background-color: $maket-pink;
+
     &__info {
+
     }
 
-    &__large-circle {
+}
+
+.main-banner-wrapper {
+    height: 620px;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+
+    width: 308px;
+    height: 220px;
+    
+    &_title {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        color: #FFFFFF;
     }
 
-    &__medium-circle {
+    &_text {
+        padding: 50px 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+
     }
 
-    &__banner {
+    &_button {
+        width: 170px;
+        height: 40px;
+
+        background: #F13C6E;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 40px;
+
+        font-size: 14px;
+
+        color: #FFFFFF;
     }
-}
-.title {
-}
-.text {
-}
-.button {
-}
-.large-circle {
-}
-.medium-circle {
-}
-.banner {
 }

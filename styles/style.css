@@ -157,10 +157,51 @@ a:hover {
 }
 
 .main-banner {
-  height: 604px;
+  height: 602px;
   background: url(../image/Rectangle_2.png) no-repeat center;
   -webkit-box-sizing: cover;
           box-sizing: cover;
   background-color: #F13C6E;
+}
+
+.main-banner-wrapper {
+  height: 620px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info {
+  width: 308px;
+  height: 220px;
+}
+
+.info_title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.info_text {
+  padding: 50px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.info_button {
+  width: 170px;
+  height: 40px;
+  background: #F13C6E;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
