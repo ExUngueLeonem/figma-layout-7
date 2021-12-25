@@ -8,6 +8,12 @@ $maket-pink: #F13C6E;
     font-weight: normal;
 }
 
+body {
+/*     display: grid;
+    grid-template-columns: 405px 1fr 405px;    
+    max-width: 1920px;
+ */}
+
 li {
     list-style-type: none;
 }
@@ -29,9 +35,15 @@ a:hover {
 }
 
 .main-wrapper {
-    max-width: 1920px;
     margin: 0 auto;
+    max-width: 1920px;
+
     border: 1px solid #afafaf;
+}
+
+.secondary-wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
 .header {
@@ -47,11 +59,16 @@ a:hover {
 }
 
 .header-bar {
-    &__item {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+        border-bottom: 1px solid #EFEFEF;
+
+        &__item {
     }
 }
+
 .logo {
         display: flex;
         align-items: center;
@@ -70,27 +87,61 @@ a:hover {
 }
 
 .search-bar {
-
+    &__input {
+    border: 0;
+    background: #EFEFEF;
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    }
 }
 
 .call-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-		&__telephone-number {
-		}
+    &__telephone-number {
+        font-size: 16px;
+        line-height: 19px;
+    }
 
-		&__call-button {
-		}
+    &__call-button {
+        margin: auto;
+        width: 170px;
+        height: 40px;
+
+        border: 2px solid #F13C6E;
+        box-sizing: border-box;
+        border-radius: 40px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 40px;
+
+    }
 }
 
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    height: 80px;
 
-/* нужно написать меню */
-
-
-
+    &__item {
+        padding: 20px;
+    }
+}
 
 .main-banner {
-
+    height: 604px;
+    background: url(../image/Rectangle_2.png) no-repeat center;
+    box-sizing: cover;
+    background-color: $maket-pink;
     &__info {
     }
 

@@ -1,10 +1,16 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
+}
+
+body {
+  /*     display: grid;
+    grid-template-columns: 405px 1fr 405px;    
+    max-width: 1920px;
+ */
 }
 
 li {
@@ -28,9 +34,14 @@ a:hover {
 }
 
 .main-wrapper {
-  max-width: 1920px;
   margin: 0 auto;
+  max-width: 1920px;
   border: 1px solid #afafaf;
+}
+
+.secondary-wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .header {
@@ -51,13 +62,17 @@ a:hover {
   margin-left: 30px;
 }
 
-.header-bar__item {
+.header-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #EFEFEF;
 }
 
 .logo {
@@ -78,5 +93,74 @@ a:hover {
   text-transform: uppercase;
 }
 
-/* нужно написать меню */
+.search-bar__input {
+  border: 0;
+  background: #EFEFEF;
+  border-radius: 40px;
+  width: 250px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.call-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.call-bar__telephone-number {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.call-bar__call-button {
+  margin: auto;
+  width: 170px;
+  height: 40px;
+  border: 2px solid #F13C6E;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.header-menu__item {
+  padding: 20px;
+}
+
+.main-banner {
+  height: 604px;
+  background: url(../image/Rectangle_2.png) no-repeat center;
+  -webkit-box-sizing: cover;
+          box-sizing: cover;
+  background-color: #F13C6E;
+}
 /*# sourceMappingURL=style.css.map */
