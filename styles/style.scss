@@ -1,0 +1,117 @@
+$maket-gray: #efefef;
+$maket-pink: #F13C6E;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000; 
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    border: 1px solid #afafaf;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: $maket-gray;
+    
+    &__item {
+        margin-left: 30px;
+    }
+}
+
+.header-bar {
+    &__item {
+        display: flex;
+        justify-content: center;
+    }
+}
+.logo {
+        display: flex;
+        align-items: center;
+
+		&__icon {
+		}
+
+		&__title {
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.1em;
+            color: $maket-pink;
+            text-transform: uppercase;
+        }
+}
+
+.search-bar {
+
+}
+
+.call-bar {
+
+		&__telephone-number {
+		}
+
+		&__call-button {
+		}
+}
+
+
+
+/* нужно написать меню */
+
+
+
+
+.main-banner {
+
+    &__info {
+    }
+
+    &__large-circle {
+    }
+
+    &__medium-circle {
+    }
+
+    &__banner {
+    }
+}
+.title {
+}
+.text {
+}
+.button {
+}
+.large-circle {
+}
+.medium-circle {
+}
+.banner {
+}
