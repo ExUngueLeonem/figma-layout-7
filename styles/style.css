@@ -6,13 +6,6 @@
   font-weight: normal;
 }
 
-body {
-  /*     display: grid;
-    grid-template-columns: 405px 1fr 405px;    
-    max-width: 1920px;
- */
-}
-
 li {
   list-style-type: none;
 }
@@ -44,6 +37,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.gray-wrapper {
+  background-color: #dfdfdf;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,7 +52,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
-  background-color: #efefef;
+  background-color: #dfdfdf;
 }
 
 .header__item {
@@ -204,4 +201,95 @@ a:hover {
   font-size: 14px;
   color: #FFFFFF;
 }
+
+.goods {
+  height: 610px;
+}
+
+.goods__title {
+  padding-top: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.goods__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* 
+
+If you are applying styles to the image and then specific styles to the last-of-type, then this what it would look like when you nest it:
+
+.try-me img {
+    // styles
+
+    &:last-of-type {
+        position: absolute;
+        top: 0; 
+        left: 0;
+        display: none;
+    }
+}
+
+*/
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards__item {
+  background-color: #fff;
+  width: 255px;
+  height: 363px;
+  margin-right: 30px;
+}
+
+.cards__item:last-of-type {
+  margin: 0;
+}
+
+.card {
+  padding-bottom: 25px;
+}
+
+.card__image {
+  background: url(../image/Rectangle_4.svg) no-repeat center;
+  height: 216px;
+}
+
+.card__text {
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.card__price {
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.card__button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 9px 40px;
+  background: #F13C6E;
+  border-radius: 30px;
+}
+
+/* h216 */
 /*# sourceMappingURL=style.css.map */
