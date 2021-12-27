@@ -339,6 +339,7 @@ a:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: 96px;
+  width: 1110px;
 }
 
 .block-impuls__item {
@@ -358,12 +359,23 @@ a:hover {
 }
 
 .footer-info {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #fff;
   padding-top: 60px;
+}
+
+.footer-info__item {
+  width: 380px;
+  margin-right: 30px;
+}
+
+.footer-info__item:last-child {
+  margin: 0;
 }
 
 .footer-info-category {
@@ -380,6 +392,47 @@ a:hover {
   font-size: 12px;
   line-height: 28px;
   border-bottom: 1px solid #efefef;
+  color: #828282;
+}
+
+.circle {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 3px solid #F13C6E;
+  border-radius: 50%;
+}
+
+.social {
+  color: #F13C6E;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 68px;
+}
+
+.footer__text {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
   color: #828282;
 }
 /*# sourceMappingURL=style.css.map */
