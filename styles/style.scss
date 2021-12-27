@@ -352,4 +352,29 @@ a:hover {
     }
 }
 
+.footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #fff;
+
+    padding-top: 60px;
+}
+.footer-info-category {
+    padding-bottom: 30px;
+    border-bottom: 1px solid $maket-gray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+}
+.footer-info-list {
+    padding-top: 25px;
+    padding-bottom: 60px;
+
+    font-size: 12px;
+    line-height: 28px;
+    border-bottom: 1px solid $maket-gray;
+
+    color: #828282;
+}
+
 

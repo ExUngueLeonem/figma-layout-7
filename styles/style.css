@@ -356,4 +356,30 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.footer-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  padding-top: 60px;
+}
+
+.footer-info-category {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+}
+
+.footer-info-list {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  font-size: 12px;
+  line-height: 28px;
+  border-bottom: 1px solid #efefef;
+  color: #828282;
+}
 /*# sourceMappingURL=style.css.map */
