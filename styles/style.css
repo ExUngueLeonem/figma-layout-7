@@ -289,6 +289,12 @@ a:hover {
   margin: 0;
 }
 
+.event-block__event-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .event-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -324,5 +330,30 @@ a:hover {
   height: 35px;
   width: 225px;
   padding-left: 15px;
+}
+
+.block-impuls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 96px;
+}
+
+.block-impuls__item {
+  background-color: #FFFFFF;
+  width: 274px;
+  height: 123px;
+  border: 1px solid #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

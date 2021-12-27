@@ -281,9 +281,14 @@ a:hover {
         &:last-child {
             margin: 0;
         }
-    
     }
+
+    &__event-image {
+        display: flex;
+    }
+
 }
+
 .event-item {
     display: flex;
     justify-content: space-between;
@@ -326,6 +331,25 @@ a:hover {
         padding-left: 15px;
     }
 
+}
+
+.block-impuls {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 96px;
+
+    &__item {
+        background-color: #FFFFFF;
+
+        width: 274px;
+        height: 123px;
+        border: 1px solid $maket-gray;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
 }
 
 
